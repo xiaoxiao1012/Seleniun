@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods" thread-count="3">
+  <test name="webdriver_demo">
+    <classes>
+      <class name="com.test3.GridTest"/>
+    </classes>
+  </test> <!-- webdriver_demo -->
+  <listeners>
+  </listeners>
+</suite> <!-- Default Suite -->
